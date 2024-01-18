@@ -1,3 +1,9 @@
+
+body{
+    margin: 0;
+}
+
+/* Header */
 .debug header{
     background-color: #add8e6;
     height: 50px;
@@ -8,12 +14,48 @@
     height: 60%;
 }
 
-body{
-    margin: 0;
-}
-
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+
+/* header > *{
+    vertical-align: auto;
+} */
+
+/* Main */
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.debug main *{
+    height: 300px;
+    width: 100%;
+}
+
+.debug #main_header{
+    background-color: #00008bFF;
+}
+
+.debug #section2{
+    background-color: #d3d3d3FF;
+}
+
+.debug #main_header>aside{
+    background-color: #ee82eeFF;
+    width: 50%;
+    height: 80%;
+}
+
+#main_header>aside{
+    align-self: center;
+}
+
+#main_header{
+    display: flex;
+    justify-content: center;
 }
