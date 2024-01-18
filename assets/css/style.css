@@ -102,13 +102,43 @@ aside.main_footer{
     align-self: center;
 }
 
+/* Footer */
 
+footer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
 
+.debug footer{
+    background-color: #23272aFF;
+    height: 300px;
+}
 
+div#footer_box{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 75%;
+    height: 90%;
+}
 
+.debug div#footer_links{
+    background-color: #f08080FF;
+    height: 100%;
+    width: 25%;
+    border: 1px dashed white;
+}
 
+.debug nav.footer_nav{
+    background-color: #20b2aaFF;
+    height: 100%;
+    border: 1px dashed black;
+}
 
-
+nav.footer_nav{
+    flex-grow: 1;
+}
 
 /* TESTO DA CENTRARE NEI FIGLI DI HEADER
 PERCHÈ ALIGN-CONTENT NON FUNZIONA? */
