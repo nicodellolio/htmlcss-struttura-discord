@@ -41,7 +41,7 @@ main{
     background-color: #00008bFF;
 }
 
-.debug #section2{
+.debug #section2, main_footer{
     background-color: #d3d3d3FF;
 }
 
@@ -59,3 +59,35 @@ main{
     display: flex;
     justify-content: center;
 }
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.debug div.picture_box{
+    background-color: #1e90ffFF;
+    height: 80%;
+    width: 40%;
+    align-self: center;
+}
+
+.debug aside.text_box{
+    background-color: #ffc0cbFF;
+    height: 80%;
+    width: 20%;
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* TESTO DA CENTRARE NEI FIGLI DI HEADER
+PERCHÈ ALIGN-CONTENT NON FUNZIONA? */
+
