@@ -11,7 +11,7 @@ body{
 
 .debug #logo,nav,#login{
     background-color: #daa520;
-    height: 60%;
+    padding: 4px 0px;
 }
 
 header{
@@ -19,11 +19,6 @@ header{
     justify-content: space-around;
     align-items: center;
 }
-
-
-/* header > *{
-    vertical-align: auto;
-} */
 
 /* Main */
 
@@ -140,6 +135,34 @@ nav.footer_nav{
     flex-grow: 1;
 }
 
-/* TESTO DA CENTRARE NEI FIGLI DI HEADER
-PERCHÈ ALIGN-CONTENT NON FUNZIONA? */
+/* Footer closure */
+
+.debug div.footer_closure{
+    background-color: #23272aFF;
+    border-top: 1px dashed white;
+    height: 60px;
+}
+
+div.footer_closure{
+    display: flex;
+    justify-content: center;
+}
+
+.debug aside.footer_closure{
+    background-color: #7fffd4FF;
+    width: 75%;
+    height: 80%;
+}
+
+aside.footer_closure{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+.debug aside.footer_closure>div{
+    background-color: #f08080FF;
+    border: 1px dashed black;
+    align-self: center;
+}
 
