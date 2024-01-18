@@ -1,0 +1,19 @@
+.debug header{
+    background-color: #add8e6;
+    height: 50px;
+}
+
+.debug #logo,nav,#login{
+    background-color: #daa520;
+    height: 60%;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
