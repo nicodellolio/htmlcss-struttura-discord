@@ -37,25 +37,26 @@ main{
     width: 100%;
 }
 
-.debug #main_header{
+.debug .main_header{
     background-color: #00008bFF;
 }
 
-.debug #section2, main_footer{
+.debug #section2, .main_footer{
     background-color: #d3d3d3FF;
 }
 
-.debug #main_header>aside{
+.debug .main_header>aside{
     background-color: #ee82eeFF;
     width: 50%;
     height: 80%;
+    border: 1px dashed black;
 }
 
-#main_header>aside{
+.main_header>aside{
     align-self: center;
 }
 
-#main_header{
+.main_header{
     display: flex;
     justify-content: center;
 }
@@ -68,17 +69,38 @@ section{
 .debug div.picture_box{
     background-color: #1e90ffFF;
     height: 80%;
-    width: 40%;
+    width: 45%;
     align-self: center;
+    border: 1px dashed black;
 }
 
 .debug aside.text_box{
     background-color: #ffc0cbFF;
     height: 80%;
-    width: 20%;
+    width: 30%;
     align-self: center;
+    border: 1px dashed black;
 }
 
+.debug div.main_footer{
+    height: 500px;
+}
+
+div.main_footer{
+    display: flex;
+    justify-content: center;
+}
+
+.debug aside.main_footer{
+    height: 90%;
+    width: 75%;
+    background-color: #228b22FF;
+    border: 1px dashed black;
+}
+
+aside.main_footer{
+    align-self: center;
+}
 
 
 
