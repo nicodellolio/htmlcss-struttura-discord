@@ -9,7 +9,7 @@ body{
     height: 50px;
 }
 
-.debug #logo,nav,#login{
+.debug #logo,#site_header nav,#login{
     background-color: #daa520;
     padding: 4px 0px;
 }
